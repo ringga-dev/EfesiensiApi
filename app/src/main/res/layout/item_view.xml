@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:strokeColor="@color/material_on_surface_stroke"
+    app:cardCornerRadius="16dp"
+    app:strokeWidth="2dp"
+    android:layout_marginHorizontal="8dp"
+    android:layout_marginTop="8dp"
+    app:cardElevation="0dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/block"
+            android:layout_marginTop="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="block" />
+
+
+
+        <TextView
+            android:id="@+id/ownerAddress"
+            android:layout_marginTop="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ownerAddress" />
+
+
+
+        <TextView
+            android:id="@+id/toAddress"
+            android:layout_marginTop="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="toAddress" />
+
+        <TextView
+            android:id="@+id/contractType"
+            android:layout_marginTop="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="contractType" />
+
+        <TextView
+            android:id="@+id/confirmed"
+            android:layout_marginTop="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="confirmed" />
+
+
+        <TextView
+            android:id="@+id/revert"
+            android:layout_marginTop="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="revert" />
+
+
+
+        <TextView
+            android:id="@+id/events"
+            android:layout_marginTop="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Events" />
+
+        <TextView
+            android:id="@+id/contractRet"
+            android:layout_marginTop="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="contractRet" />
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_marginTop="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="result" />
+
+        <TextView
+            android:id="@+id/amount"
+            android:layout_marginTop="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="amount" />
+
+        <TextView
+            android:id="@+id/cost"
+            android:layout_marginTop="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="cost" />
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
